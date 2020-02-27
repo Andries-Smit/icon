@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mendix.icon.Icon" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Counter</name>
+    <description>My widget description</description>
+    <icon>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</icon>
+    <properties>
+        <propertyGroup caption="General">
+        <property key="action" type="action">
+            <caption>action</caption>
+            <description/>
+        </property>
+        <property key="attribute" type="attribute">
+            <caption>attribute</caption>
+            <description/>
+            <attributeTypes>
+                <attributeType name="Decimal"/>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>
+        <property key="boolean" type="boolean" defaultValue="true">
+            <caption>boolean</caption>
+            <description/>
+        </property>
+        <property key="enumeration" type="enumeration" defaultValue="right">
+            <caption>enumeration</caption>
+            <description/>
+            <enumerationValues>
+                <enumerationValue key="left">Left</enumerationValue>
+                <enumerationValue key="center">Center</enumerationValue>
+                <enumerationValue key="right">Right</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="expression" type="expression" defaultValue="0">
+            <caption>expression</caption>
+            <description/>
+            <returnType type="Decimal"/>
+        </property>
+        <property key="icon" type="icon">
+            <caption>icon</caption>
+            <description/>
+        </property>
+        <property key="image" type="image">
+            <caption>image</caption>
+            <description/>
+        </property>
+        <property key="integer" type="integer" defaultValue="1">
+            <caption>integer</caption>
+            <description/>
+        </property>
+        <property key="string" type="string">
+            <caption>string</caption>
+            <description/>
+        </property>
+        <property key="textTemplate" type="textTemplate">
+            <caption>textTemplate</caption>
+            <description/>
+        </property>
+        </propertyGroup>
+        <!-- <property key="attributeDecimal" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="Decimal"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeAutoNumber" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="AutoNumber"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeBinary" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="Binary"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeCurrency" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="Currency"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeBoolean" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="Boolean"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeDateTime" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="DateTime"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeEnum" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="Enum"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeHashString" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="HashString"/>
+            </attributeTypes>
+        </property>
+        <property key="attributeFloat" type="attribute">
+            <caption>Lower value attribute</caption>
+            <description>The selected lower bound value on the slider.</description>
+            <attributeTypes>
+                <attributeType name="Float"/>
+            </attributeTypes>
+        </property>
+        xs:string">
+      <xs:enumeration value="" />
+      <xs:enumeration value="" />
+      <xs:enumeration value="" />
+      <xs:enumeration value="Currency" />
+      <xs:enumeration value="DateTime" />
+      <xs:enumeration value="Enum" />
+      <xs:enumeration value="Float" />
+      <xs:enumeration value="HashString" />
+      <xs:enumeration value="Integer" />
+      <xs:enumeration value="Long" />
+      <xs:enumeration value="String" />
+      <xs:enumeration value="Decimal" /> -->
+    </properties>
+</widget>
